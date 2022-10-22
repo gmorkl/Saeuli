@@ -2,4 +2,4 @@
 
 Link to Miro collaboration platform: 
 
-https://miro.com/welcome/dUMyTnhoeGh2UnNzUWZtc2FZZ1FzU3JSa0RXbDhwZDJvczJDVG9YaHBwSkxmY1AwTHZYTDR3OUljYk5LZjZKbXwzNDU4NzY0NTM2NjE0Njc2ODgyfG4vYQ==?share_link_id=397575145390
+https://miro.com/welcomeonboard/TmhtR1QwSXg4N3VNbkd6MlJhSHg3aXpNbnlLNzNkVFlsVkRKNVUwS3psZkxrWVNURUxPU1M3bmc5R1JQOGdlenwzNDU4NzY0NTM2NjE0Njc2ODgyfDI=?share_link_id=229603400413
