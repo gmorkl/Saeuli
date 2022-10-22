@@ -1,7 +1,9 @@
 # app.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 countries = [
     {"id": 1, "name": "Thailand", "capital": "Bangkok", "area": 513120},
@@ -17,11 +19,11 @@ orders = [
 def _find_next_id():
     return max(country["id"] for country in countries) + 1
 
-@app.get("/countries")
+@app.get("/api/countries")
 def get_countries():
     return jsonify(countries)
 
-@app.post("/countries")
+@app.post("/api/countries")
 def add_country():
     if request.is_json:
         country = request.get_json()
@@ -32,6 +34,6 @@ def add_country():
 
 
 
-@app.get("/orders")
+@app.get("/api/orders")
 def get_orders():
     return jsonify(orders)

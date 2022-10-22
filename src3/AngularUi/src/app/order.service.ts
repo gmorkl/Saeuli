@@ -12,7 +12,7 @@ export class OrderService {
   constructor(
     private http: HttpClient) { }
 
-    private ordersUrl = '/api/orders'; 
+    private ordersUrl = 'http://localhost:5000/api/orders'; 
 
     /*
   getOrders(): Observable<Order[]> {

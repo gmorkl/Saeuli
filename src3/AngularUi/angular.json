@@ -69,7 +69,6 @@
             },
             "development": {
               "browserTarget": "AngularUi:build:development",
-              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
