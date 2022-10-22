@@ -12,10 +12,10 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 ## Tech stack
 - For collaboration:
--- Miro
--- Github
+    - Miro
+    - Github
 
 - For application:
--- Python
+    - Python
 
 
