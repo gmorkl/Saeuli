@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Order } from '../order';
-
+import { ORDERS } from '../mock-orders';
 
 @Component({
   selector: 'app-checkout',
@@ -11,14 +11,15 @@ export class CheckoutComponent implements OnInit {
 
   constructor() { }
 
-  public test = "asdf";
-
-  order: Order = {
-    id: 123,  
-    cost: 9.50
-  };
+  orders = ORDERS;
+  selectedOrder?: Order;
 
   ngOnInit(): void {
+  }
+
+  
+  onSelect(order: Order): void {
+    this.selectedOrder = order;
   }
 
 }

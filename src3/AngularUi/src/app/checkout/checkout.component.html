@@ -1,6 +1,17 @@
 <p>checkout works!</p>
 
-<div>
-    <label for="oid">ID: {{order.id}} | cost: {{order.cost}}</label><br/>
-    <input id="oid" [(ngModel)]="order.cost" placeholder="cost">
-  </div>
+<div *ngIf="selectedOrder">
+    <label for="oid">ID: {{selectedOrder.id}} | cost: {{selectedOrder.cost}}</label><br/>
+    <input id="oid" [(ngModel)]="selectedOrder.cost" placeholder="cost">
+</div>
+
+
+<h2>My Orders</h2>
+<ul class="orders">
+    <li *ngFor="let order of orders">
+      <button [class.selected]="order === selectedOrder" type="button" (click)="onSelect(order)" >
+      <span class="oid">{{order.id}}</span> - 
+      <span class="cost">{{order.cost}}</span>
+    </button>
+  </li>
+</ul>
