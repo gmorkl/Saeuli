@@ -1,4 +1,4 @@
-* Some helpful links *
+## Some helpful links
 
 https://realpython.com/api-integration-in-python/
 
