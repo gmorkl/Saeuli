@@ -9,6 +9,11 @@ countries = [
     {"id": 3, "name": "Egypt", "capital": "Cairo", "area": 1010408},
 ]
 
+orders = [
+    {"id": 1, "cost": 1.50},
+    {"id": 2, "cost": 9.30}
+]
+
 def _find_next_id():
     return max(country["id"] for country in countries) + 1
 
@@ -24,3 +29,9 @@ def add_country():
         countries.append(country)
         return country, 201
     return {"error": "Request must be JSON"}, 415
+
+
+
+@app.get("/orders")
+def get_orders():
+    return jsonify(orders)

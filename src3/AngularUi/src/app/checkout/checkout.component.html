@@ -1,10 +1,6 @@
 <p>checkout works!</p>
 
-<div *ngIf="selectedOrder">
-    <label for="oid">ID: {{selectedOrder.id}} | cost: {{selectedOrder.cost}}</label><br/>
-    <input id="oid" [(ngModel)]="selectedOrder.cost" placeholder="cost">
-</div>
-
+<app-order-detail [order]="selectedOrder"></app-order-detail>
 
 <h2>My Orders</h2>
 <ul class="orders">
