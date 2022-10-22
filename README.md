@@ -9,6 +9,10 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 ## Getting started
 - Clone git repository.
+- Install Python: _https://www.python.org/downloads/_
+- Install pip
+- Install Flask
+- 
 
 ## Tech stack
 - For collaboration:
@@ -17,5 +21,6 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 - For application:
     - Python
-
+    - Flask (Python REST API Framework)
+    
 
