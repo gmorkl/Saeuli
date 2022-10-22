@@ -15,12 +15,7 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 - 
 
 ## Tech stack
-- For collaboration:
-    - Miro
-    - Github
-
-- For application:
-    - Python
-    - Flask (Python REST API Framework)
+- Python 3
+- Flask (Python Framework)
     
 
