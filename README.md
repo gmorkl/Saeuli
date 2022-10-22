@@ -10,5 +10,12 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 ## Getting started
 - Clone git repository.
 
+## Tech stack
+- For collaboration:
+-- Miro
+-- Github
+
+- For application:
+-- Python
 
 
