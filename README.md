@@ -9,10 +9,12 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 ## Getting started
 - Clone git repository.
-- Install Python: _https://www.python.org/downloads/_
-- Install pip `python -m pip install` or `python -m pip install --upgrade --force-reinstall pip` 
-- Install Flask `pip install Flask` 
-- Install Requests `pip install requests` 
+- Install Python: https://www.python.org/downloads/
+- Install pip: `python -m pip install` or `python -m pip install --upgrade --force-reinstall pip` 
+- Install Flask: `pip install Flask` 
+- Install Requests: `pip install requests` 
+- Install NodeJS: https://nodejs.org/en/download/
+- Install Angular CLI: `npm install -g @angular/cli` 
 
 ## Tech stack
 - Python 3
