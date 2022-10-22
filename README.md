@@ -9,7 +9,6 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 ## Getting started
 - Clone git repository.
-- Install python: https://www.python.org/downloads/
 
 
 
