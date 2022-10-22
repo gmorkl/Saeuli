@@ -16,6 +16,9 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 
 ## Tech stack
 - Python 3
-- Flask (Python Framework)
+- Flask (Python)
+- Requests (Python)
+- NodeJS, NPM
+- Angular
     
 
