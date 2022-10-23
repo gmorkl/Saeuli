@@ -1,315 +1,306 @@
 
-
-
-
-
-
-
-		color: rgba(255,255,255,1);
-        .mediaViewInfo {
-            --web-view-name: Web 1920 – 6;
-            --web-view-id: Web_1920__6;
-            --web-scale-on-resize: true;
-            --web-enable-deep-linking: true;
-        }
-        :root {
-            --web-view-ids: Web_1920__6;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            border: none;
-        }
-        #Web_1920__6 {
-            position: absolute;
-            width: 1024px;
-            height: 768px;
-            background-color: rgba(255,255,255,1);
-            overflow: hidden;
-            --web-view-name: Web 1920 – 6;
-            --web-view-id: Web_1920__6;
-            --web-scale-on-resize: true;
-            --web-enable-deep-linking: true;
-        }
-        #Rectangle_6 {
-            fill: rgba(0,0,0,1);
-        }
-        .Rectangle_6 {
-            position: absolute;
-            overflow: visible;
-            width: 1024px;
-            height: 768px;
-            left: 0px;
-            top: 0px;
-        }
-        #Bezahlen {
-            left: 20px;
-            top: 18px;
-            position: absolute;
-            overflow: visible;
-            width: 175px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -17px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 42px;
-            color: rgba(255,255,255,1);
-        }
-        #Group_7 {
-            position: absolute;
-            width: 424px;
-            height: 90px;
-            left: 580px;
-            top: 537px;
-            overflow: visible;
-        }
-        #Rectangle_4 {
-            fill: rgba(66,75,178,1);
-            stroke: rgba(255,255,255,1);
-            stroke-width: 2px;
-            stroke-linejoin: miter;
-            stroke-linecap: butt;
-            stroke-miterlimit: 4;
-            shape-rendering: auto;
-        }
-        .Rectangle_4 {
-            position: absolute;
-            overflow: visible;
-            width: 424px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-        }
-        #n_52_CHF_von_Suli {
-            left: 44px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 308px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(255,255,255,1);
-        }
-        #Group_2 {
-            position: absolute;
-            width: 424px;
-            height: 90px;
-            left: 580px;
-            top: 647px;
-            overflow: visible;
-        }
-        #Rectangle_5 {
-            fill: rgba(12,167,136,1);
-            stroke: rgba(255,255,255,1);
-            stroke-width: 2px;
-            stroke-linejoin: miter;
-            stroke-linecap: butt;
-            stroke-miterlimit: 4;
-            shape-rendering: auto;
-        }
-        .Rectangle_5 {
-            position: absolute;
-            overflow: visible;
-            width: 424px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-        }
-        #Weitere_Zahlungsmittel {
-            left: 34px;
-            top: 25px;
-            position: absolute;
-            overflow: visible;
-            width: 357px;
-            white-space: nowrap;
-            line-height: 70px;
-            margin-top: -18px;
-            text-align: center;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 34px;
-            color: rgba(255,255,255,1);
-        }
-        #Group_1 {
-            position: absolute;
-            width: 540px;
-            height: 90px;
-            left: 20px;
-            top: 85px;
-            overflow: visible;
-        }
-        #Rectangle_2 {
-            fill: rgba(0,0,0,1);
-            stroke: rgba(255,255,255,1);
-            stroke-width: 2px;
-            stroke-linejoin: miter;
-            stroke-linecap: butt;
-            stroke-miterlimit: 4;
-            shape-rendering: auto;
-        }
-        .Rectangle_2 {
-            position: absolute;
-            overflow: visible;
-            width: 540px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-        }
-        #Total {
-            left: 18px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 81px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(255,255,255,1);
-        }
-        #n_55 {
-            left: 446px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 73px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(255,255,255,1);
-        }
-        #Group_5 {
-            position: absolute;
-            width: 540px;
-            height: 90px;
-            left: 20px;
-            top: 195px;
-            overflow: visible;
-        }
-        #Rectangle_2_u {
-            fill: rgba(0,0,0,1);
-            stroke: rgba(255,255,255,1);
-            stroke-width: 2px;
-            stroke-linejoin: miter;
-            stroke-linecap: butt;
-            stroke-miterlimit: 4;
-            shape-rendering: auto;
-        }
-        .Rectangle_2_u {
-            position: absolute;
-            overflow: visible;
-            width: 540px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-        }
-        #Gegeben {
-            left: 18px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 145px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-        }
-        #n_03 {
-            left: 446px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 73px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(255,255,255,1);
-        }
-        #Group_4 {
-            position: absolute;
-            width: 540px;
-            height: 90px;
-            left: 20px;
-            top: 305px;
-            overflow: visible;
-        }
-        #Rectangle_3 {
-            fill: rgba(255,255,255,1);
-            stroke: rgba(255,255,255,1);
-            stroke-width: 2px;
-            stroke-linejoin: miter;
-            stroke-linecap: butt;
-            stroke-miterlimit: 4;
-            shape-rendering: auto;
-        }
-        .Rectangle_3 {
-            position: absolute;
-            overflow: visible;
-            width: 540px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-        }
-        #Zu_zahlen {
-            left: 18px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 159px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(0,0,0,1);
-        }
-        #n_52 {
-            left: 446px;
-            top: 24px;
-            position: absolute;
-            overflow: visible;
-            width: 73px;
-            white-space: nowrap;
-            line-height: 76px;
-            margin-top: -20px;
-            text-align: left;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(0,0,0,1);
-        }
-
-
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 6;
+    --web-view-id: Web_1920__6;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920__6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1920__6 {
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1920 – 6;
+    --web-view-id: Web_1920__6;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Rectangle_6 {
+    fill: rgba(0,0,0,1);
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 1024px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+}
+#Bezahlen {
+    left: 20px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -17px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(255,255,255,1);
+}
+#Group_7 {
+    position: absolute;
+    width: 424px;
+    height: 90px;
+    left: 580px;
+    top: 537px;
+    overflow: visible;
+}
+#Rectangle_4 {
+    fill: rgba(66,75,178,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 424px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+#n_52_CHF_von_Suli {
+    left: 44px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 308px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+}
+#Group_2 {
+    position: absolute;
+    width: 424px;
+    height: 90px;
+    left: 580px;
+    top: 647px;
+    overflow: visible;
+}
+#Rectangle_5 {
+    fill: rgba(12,167,136,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 424px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+#Weitere_Zahlungsmittel {
+    left: 34px;
+    top: 25px;
+    position: absolute;
+    overflow: visible;
+    width: 357px;
+    white-space: nowrap;
+    line-height: 70px;
+    margin-top: -18px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: rgba(255,255,255,1);
+}
+#Group_1 {
+    position: absolute;
+    width: 540px;
+    height: 90px;
+    left: 20px;
+    top: 85px;
+    overflow: visible;
+}
+#Rectangle_2 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 540px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+#Total {
+    left: 18px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+}
+#n_55 {
+    left: 446px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+}
+#Group_5 {
+    position: absolute;
+    width: 540px;
+    height: 90px;
+    left: 20px;
+    top: 195px;
+    overflow: visible;
+}
+#Rectangle_2_u {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_2_u {
+    position: absolute;
+    overflow: visible;
+    width: 540px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+#Gegeben {
+    left: 18px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 145px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+#n_03 {
+    left: 446px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+}
+#Group_4 {
+    position: absolute;
+    width: 540px;
+    height: 90px;
+    left: 20px;
+    top: 305px;
+    overflow: visible;
+}
+#Rectangle_3 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 540px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+#Zu_zahlen {
+    left: 18px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(0,0,0,1);
+}
+#n_52 {
+    left: 446px;
+    top: 24px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    line-height: 76px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(0,0,0,1);
+}

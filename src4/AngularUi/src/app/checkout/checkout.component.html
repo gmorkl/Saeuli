@@ -55,7 +55,7 @@ donated:  {{donated?.message}}
 		</rect>
 	</svg>
 	<div id="Bezahlen">
-		<span>Bezahlen</span>
+		<span>Bezahlen</span>&nbsp;<span (click)="back()">Zurück</span>
 	</div>
 	<div id="Group_7">
 		<svg class="Rectangle_4">
@@ -63,11 +63,11 @@ donated:  {{donated?.message}}
 			</rect>
 		</svg>
 		<div id="n_52_CHF_von_Suli" class="button" (click)="receive()" *ngIf="!isDonation">
-      <span *ngIf="received === undefined">CHF 0.52 von Säuli</span>
+      <span *ngIf="received === undefined">CHF {{toPay | number:'1.2-2'}} von Säuli</span>
       <span *ngIf="received !== undefined">{{received?.message}}</span>
 		</div>
 		<div id="n_52_CHF_von_Suli" class="button" (click)="donate()"  *ngIf="isDonation">
-      <span *ngIf="donated === undefined">CHF 0.40 an Säuli spenden</span>
+      <span *ngIf="donated === undefined">CHF {{toDonate | number:'1.2-2'}} spenden</span>
       <span *ngIf="donated !== undefined">{{donated?.message}}</span>
 		</div>
 	</div>
@@ -89,7 +89,7 @@ donated:  {{donated?.message}}
 			<span>Total</span>
 		</div>
 		<div id="n_55">
-			<span>9.55</span>
+			<span>{{total | number:'1.2-2'}}</span>
 		</div>
 	</div>
 	<div id="Group_5">
@@ -101,7 +101,7 @@ donated:  {{donated?.message}}
 			<span>Gegeben</span>
 		</div>
 		<div id="n_03">
-			<span>9.03</span>
+			<span>{{given | number:'1.2-2'}}</span>
 		</div>
 	</div>
 	<div id="Group_4">
@@ -113,7 +113,7 @@ donated:  {{donated?.message}}
 			<span>Zu zahlen</span>
 		</div>
 		<div id="n_52">
-			<span>0.52</span>
+			<span>{{toPay | number:'1.2-2'}}</span>
 		</div>
 	</div>
 </div>

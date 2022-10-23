@@ -14,12 +14,6 @@ export class OrderService {
 
     private ordersUrl = 'http://localhost:5000/api/orders'; 
 
-    /*
-  getOrders(): Observable<Order[]> {
-    const orders = of(ORDERS);
-    return orders;
-  }
-  */
 
   getOrders(): Observable<Order[]> {
     return this.http.get<Order[]>(this.ordersUrl)

@@ -6,6 +6,8 @@ import { ItemService } from '../item.service';
 import { PiggyService } from '../piggy.service';
 import { DonationResponse } from '../donationResponse';
 import { FundingResponse } from '../fundingResponse';
+import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-checkout',
@@ -14,7 +16,7 @@ import { FundingResponse } from '../fundingResponse';
 })
 export class CheckoutComponent implements OnInit {
 
-  constructor(private orderService: OrderService, private itemService: ItemService, private piggyService: PiggyService) { }
+  constructor(private orderService: OrderService, private itemService: ItemService, private piggyService: PiggyService, private location: Location) { }
 
   orders: Order[] = [];
   items: Item[] = [];
@@ -23,10 +25,31 @@ export class CheckoutComponent implements OnInit {
   donated?:DonationResponse;
   received?:FundingResponse;
   isDonation: Boolean = false;
+  total: number = 9.55;
+  given: number = 9.03;
+  toPay: number = 0.52;
+  toDonate: number = 0.0;
 
   ngOnInit(): void {
     this.getOrders();
     this.getItems();
+
+    this.total = 8 + (Math.round(Math.random()*10.0)*10.0)/100;
+    this.given = 8 + (Math.round(Math.random()*10.0)*10.0)/100;
+    this.toPay = this.total - this.given;
+
+    if(this.toPay > 0) {
+      this.isDonation = false;
+
+    }
+    else {
+      this.isDonation = true;
+      this.toDonate = this.toPay;
+    }
+  }
+
+  back():void {
+    this.location.back();
   }
 
   getOrders(): void {
