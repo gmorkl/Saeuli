@@ -22,8 +22,8 @@ checkouts = [
     {"id" : 1, "toPay": 13.70, "available": 13.20 }
 ]
 
-donationResponse = { "message": "OK Donation" }
-fundingResponse = { "message": "OK Funding" }
+donationResponse = { "message": "Danke!" }
+fundingResponse = { "message": "Gerne geschehen!" }
 
 def _find_next_order_id():
     return max(orders["id"] for order in orders) + 1

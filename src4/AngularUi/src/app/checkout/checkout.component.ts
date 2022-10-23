@@ -22,6 +22,7 @@ export class CheckoutComponent implements OnInit {
   sum: number = 0.0;
   donated?:DonationResponse;
   received?:FundingResponse;
+  isDonation: Boolean = false;
 
   ngOnInit(): void {
     this.getOrders();
