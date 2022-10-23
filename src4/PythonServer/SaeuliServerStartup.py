@@ -22,7 +22,7 @@ checkouts = [
     {"id" : 1, "toPay": 13.70, "available": 13.20 }
 ]
 
-donationResponse = { "message": "Danke!" }
+donationResponse = { "message": "Säuli sagt Danke!" }
 fundingResponse = { "message": "Gerne geschehen!" }
 
 def _find_next_order_id():

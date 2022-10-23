@@ -44,7 +44,7 @@ export class CheckoutComponent implements OnInit {
     else {
       this.isDonation = true;
     
-      this.toDonate = Math.abs(Math.round(this.total)-this.total);
+      this.toDonate = Math.abs(Math.ceil(this.total)-this.total);
       this.given = this.total;
       this.toPay = 0;
     }
