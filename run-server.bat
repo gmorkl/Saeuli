@@ -1,0 +1,1 @@
+flask --app src4/PythonServer/SaeuliServerStartup.py run 
