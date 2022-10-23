@@ -16,7 +16,7 @@ This repository is for the project 'Säuli' for BaselHack 2022 from Team Nr. 3.
 - Install NodeJS: https://nodejs.org/en/download/
 - Install Angular CLI: `npm install -g @angular/cli` 
 - Install Angular Material: `ng add @angular/material` 
-- Install Flask-Cors: `pip install -U flas$k-cors` 
+- Install Flask-Cors: `pip install -U flask-cors` 
 
 ## Tech stack
 - Python 3
