@@ -40,11 +40,13 @@ export class CheckoutComponent implements OnInit {
 
     if(this.toPay > 0) {
       this.isDonation = false;
-
     }
     else {
       this.isDonation = true;
-      this.toDonate = this.toPay;
+    
+      this.toDonate = Math.abs(Math.round(this.total)-this.total);
+      this.given = this.total;
+      this.toPay = 0;
     }
   }
 
@@ -71,12 +73,16 @@ export class CheckoutComponent implements OnInit {
 
   donate(): void {
     // donate
-    this.piggyService.donate().subscribe(donated => this.donated = donated);
+    this.piggyService.donate().subscribe(donated => {this.donated = donated});
   }
 
   receive(): void {
     // receive
-    this.piggyService.receive().subscribe(received => this.received = received);
+    this.piggyService.receive().subscribe(received => {
+      this.received = received;
+      this.toPay=0.0;
+      
+    });
   }
 
 }
