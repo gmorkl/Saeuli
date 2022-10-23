@@ -1,0 +1,13 @@
+<p>checkout works!</p>
+
+<app-order-detail [order]="selectedOrder"></app-order-detail>
+
+<h2>My Orders</h2>
+<ul class="orders">
+    <li *ngFor="let order of orders">
+      <button [class.selected]="order === selectedOrder" type="button" (click)="onSelect(order)" >
+      <span class="oid">{{order.id}}</span> - 
+      <span class="cost">{{order.cost}}</span>
+    </button>
+  </li>
+</ul>

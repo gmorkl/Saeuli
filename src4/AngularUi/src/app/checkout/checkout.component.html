@@ -1,0 +1,44 @@
+<div class="checkout">
+
+<h2>Checkout</h2>
+
+<!--
+<ul class="orders">
+    <li *ngFor="let order of orders">
+      <button [class.selected]="order === selectedOrder" type="button" (click)="onSelect(order)" >
+      <span class="oid">{{order.id}}</span> - 
+      <span class="cost">{{order.cost}}</span>
+    </button>
+  </li>
+</ul>
+-->
+
+<table>
+  <tbody>
+    <tr>
+      <th>Menge</th>
+      <th>Artikel</th>
+      <th>Preis</th>
+      <th>Total</th>
+    </tr>
+    <tr *ngFor="let item of items">
+      <td>{{item.amount}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.cost}}</td>
+      <td>{{item.total}}</td>
+    </tr>
+    <tr>
+      <td>Total:</td>
+      <td></td>
+      <td></td>
+      <td>{{sum}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" (click)="donate()">Spenden</button>
+<button type="button" (click)="receive()">Erhalten</button>
+
+<!-- <app-order-detail [order]="selectedOrder"></app-order-detail> -->
+
+</div>

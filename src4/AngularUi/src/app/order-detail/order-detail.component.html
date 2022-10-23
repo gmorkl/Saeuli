@@ -1,0 +1,9 @@
+<p>order-detail works!</p>
+
+
+<div *ngIf="order">
+    <label for="oid">ID: {{order.id}} | cost: {{order.cost}}</label><br/>
+    <input id="oid" [(ngModel)]="order.cost" placeholder="cost">
+</div>
+
+<button type="button" (click)="goBack()">go back</button>
