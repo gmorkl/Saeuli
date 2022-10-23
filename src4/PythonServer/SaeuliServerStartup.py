@@ -22,6 +22,9 @@ checkouts = [
     {"id" : 1, "toPay": 13.70, "available": 13.20 }
 ]
 
+donationResponse = { "message": "OK Donation" }
+fundingResponse = { "message": "OK Funding" }
+
 def _find_next_order_id():
     return max(orders["id"] for order in orders) + 1
 
@@ -62,4 +65,14 @@ def do_checkout():
         
         return "OK", 200
     return {"error": "Request must be JSON"}, 415
+
+@app.get("/api/fund")
+def receive():
+    return jsonify(fundingResponse)
+
+
+@app.get("/api/donate")
+def donate():
+    return jsonify(donationResponse)
+
 

@@ -3,6 +3,9 @@ import { Order } from '../order';
 import { Item } from '../item';
 import { OrderService } from '../order.service';
 import { ItemService } from '../item.service';
+import { PiggyService } from '../piggy.service';
+import { DonationResponse } from '../donationResponse';
+import { FundingResponse } from '../fundingResponse';
 
 @Component({
   selector: 'app-checkout',
@@ -11,12 +14,14 @@ import { ItemService } from '../item.service';
 })
 export class CheckoutComponent implements OnInit {
 
-  constructor(private orderService: OrderService, private itemService: ItemService) { }
+  constructor(private orderService: OrderService, private itemService: ItemService, private piggyService: PiggyService) { }
 
   orders: Order[] = [];
   items: Item[] = [];
   selectedOrder?: Order;
   sum: number = 0.0;
+  donated?:DonationResponse;
+  received?:FundingResponse;
 
   ngOnInit(): void {
     this.getOrders();
@@ -42,10 +47,12 @@ export class CheckoutComponent implements OnInit {
 
   donate(): void {
     // donate
+    this.piggyService.donate().subscribe(donated => this.donated = donated);
   }
 
   receive(): void {
     // receive
+    this.piggyService.receive().subscribe(received => this.received = received);
   }
 
 }
