@@ -16,6 +16,7 @@ export class CheckoutComponent implements OnInit {
   orders: Order[] = [];
   items: Item[] = [];
   selectedOrder?: Order;
+  sum: number = 0.0;
 
   ngOnInit(): void {
     this.getOrders();
@@ -23,15 +24,28 @@ export class CheckoutComponent implements OnInit {
   }
 
   getOrders(): void {
-    this.orderService.getOrders().subscribe(orders => this.orders = orders);
+    this.orderService.getOrders().subscribe(orders => {
+      this.orders = orders;
+    });
   }
 
   getItems(): void {
-    this.itemService.getItems().subscribe(items => this.items = items);
+    this.itemService.getItems().subscribe(items => {
+      this.items = items;
+      this.sum=items.reduce((sum, current) => sum + current.total, 0);
+    });
   }
   
   onSelect(order: Order): void {
     this.selectedOrder = order;
+  }
+
+  donate(): void {
+    // donate
+  }
+
+  receive(): void {
+    // receive
   }
 
 }

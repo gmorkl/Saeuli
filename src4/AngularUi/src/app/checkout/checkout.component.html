@@ -1,6 +1,8 @@
 <div class="checkout">
 
 <h2>Checkout</h2>
+
+<!--
 <ul class="orders">
     <li *ngFor="let order of orders">
       <button [class.selected]="order === selectedOrder" type="button" (click)="onSelect(order)" >
@@ -9,7 +11,7 @@
     </button>
   </li>
 </ul>
-
+-->
 
 <table>
   <tbody>
@@ -25,9 +27,18 @@
       <td>{{item.cost}}</td>
       <td>{{item.total}}</td>
     </tr>
+    <tr>
+      <td>Total:</td>
+      <td></td>
+      <td></td>
+      <td>{{sum}}</td>
+    </tr>
   </tbody>
 </table>
 
-<app-order-detail [order]="selectedOrder"></app-order-detail>
+<button type="button" (click)="donate()">Spenden</button>
+<button type="button" (click)="receive()">Erhalten</button>
+
+<!-- <app-order-detail [order]="selectedOrder"></app-order-detail> -->
 
 </div>
