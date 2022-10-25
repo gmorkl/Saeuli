@@ -4,6 +4,13 @@ Problem:
 Poverty is closer than you think. Every 10th person is affected by it.
 In 2020 alone, 722’000 people in Switzerland were affected by poverty. -Caritas
 
+Almost every one of us had at least one experiance where they were short of money standing at the checkout.
+People of all demographics: students, elderly, families, can relate.
+Maybe you forgot your wallet or the end of the month there is not much left in it.
+You might feel powerless & exposed.
+Today a analog option of a jar at the cashier is available, where you can put your coins in. But lots of people are using cards and do not carry
+any coins with them most of the times. To solve this we came up with this consept:
+
 Solution:
 Our solution -> Solidaritätskasse Säuli (swissgerman “Soili” = little piglet)
 The aim of the Säuli is not only to provide a little extra relief to those affected, but also as a small feature for conveniance.
