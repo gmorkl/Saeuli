@@ -1,0 +1,1 @@
+npm start --prefix src4\AngularUi\

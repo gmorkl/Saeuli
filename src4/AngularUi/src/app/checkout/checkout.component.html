@@ -1,0 +1,120 @@
+
+<!--
+
+
+<div class="checkout">
+
+<h2>Checkout</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <th>Menge</th>
+      <th>Artikel</th>
+      <th>Preis</th>
+      <th>Total</th>
+    </tr>
+    <tr *ngFor="let item of items">
+      <td>{{item.amount}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.cost}}</td>
+      <td>{{item.total}}</td>
+    </tr>
+    <tr>
+      <td>Total:</td>
+      <td></td>
+      <td></td>
+      <td>{{sum}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" (click)="donate()">Spenden</button>
+<button type="button" (click)="receive()">Erhalten</button>
+
+<div>
+donated:  {{donated?.message}}
+</div>
+
+<div>
+  received: {{received?.message}}
+</div>
+
+
+
+</div>
+
+----------------------------------
+-->
+
+
+
+<div id="Web_1920__6">
+	<svg class="Rectangle_6">
+		<rect id="Rectangle_6" rx="0" ry="0" x="0" y="0" width="1024" height="768">
+		</rect>
+	</svg>
+	<div id="Bezahlen">
+		<span>Bezahlen</span>&nbsp;<span (click)="back()">Zurück</span>
+	</div>
+	<div id="Group_7">
+		<svg class="Rectangle_4">
+			<rect id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="424" height="90">
+			</rect>
+		</svg>
+		<div id="n_52_CHF_von_Suli" class="button" (click)="receive()" *ngIf="!isDonation">
+      <span *ngIf="received === undefined">CHF {{toPay | number:'1.2-2'}} von Säuli</span>
+      <span *ngIf="received !== undefined">{{received?.message}}</span>
+		</div>
+		<div id="n_52_CHF_von_Suli" class="button" (click)="donate()"  *ngIf="isDonation">
+      <span *ngIf="donated === undefined">CHF {{toDonate | number:'1.2-2'}} spenden</span>
+      <span *ngIf="donated !== undefined">{{donated?.message}}</span>
+		</div>
+	</div>
+	<div id="Group_2">
+		<svg class="Rectangle_5">
+			<rect id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="424" height="90">
+			</rect>
+		</svg>
+		<div id="Weitere_Zahlungsmittel">
+			<span>Weitere Zahlungsmittel</span>
+		</div>
+	</div>
+	<div id="Group_1">
+		<svg class="Rectangle_2">
+			<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="540" height="90">
+			</rect>
+		</svg>
+		<div id="Total">
+			<span>Total</span>
+		</div>
+		<div id="n_55">
+			<span>{{total | number:'1.2-2'}}</span>
+		</div>
+	</div>
+	<div id="Group_5">
+		<svg class="Rectangle_2_u">
+			<rect id="Rectangle_2_u" rx="0" ry="0" x="0" y="0" width="540" height="90">
+			</rect>
+		</svg>
+		<div id="Gegeben">
+			<span>Gegeben</span>
+		</div>
+		<div id="n_03">
+			<span>{{given | number:'1.2-2'}}</span>
+		</div>
+	</div>
+	<div id="Group_4">
+		<svg class="Rectangle_3">
+			<rect id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="540" height="90">
+			</rect>
+		</svg>
+		<div id="Zu_zahlen">
+			<span>Zu zahlen</span>
+		</div>
+		<div id="n_52">
+			<span>{{toPay | number:'1.2-2'}}</span>
+		</div>
+	</div>
+</div>
+
